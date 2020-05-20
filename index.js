@@ -1,1 +1,1 @@
-export { play } from './Connect4'
+export { Connect4, play } from './Connect4'

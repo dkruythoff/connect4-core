@@ -2,5 +2,17 @@
   "name": "connect4-core",
   "version": "1.0.0",
   "description": "Shared assets for Connect 4 game",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "test": "npm run test:unit",
+    "test:unit": "jest",
+    "test:unit:coverage": "jest --config=jest.coverage.config.js",
+    "test:unit:watch": "jest --coverage --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1"
+  }
 }
